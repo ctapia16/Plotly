@@ -126,18 +126,3 @@ function App() {
 }
 
 export default App;
-      </div>
-
-      <div className="chart-container">
-
-        {chart === "polar" && <PolarBar />}
-        {chart === "chart2" && <PolarLine />}
-        {chart === "chart3" && <PolarScatter />}
-
-      </div>
-
-    </div>
-  );
-}
-
-export default App;
